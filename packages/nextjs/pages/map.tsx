@@ -6,6 +6,7 @@ const Sita: NextPage = () => {
     <>
       <Flex className="flex items-center flex-col flex-grow pt-10">
         <h1>Map</h1>
+        <h2>Test</h2>
       </Flex>
     </>
   );
