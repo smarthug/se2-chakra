@@ -10,14 +10,6 @@ const Home: NextPage = () => {
             <span className="block text-2xl mb-2">Welcome to</span>
             <span className="block text-4xl font-bold">SITA</span>
           </h1>
-          <p className="text-center text-lg">
-            Get started by editing{" "}
-            <code className="italic bg-base-300 text-base font-bold">packages/nextjs/pages/index.tsx</code>
-          </p>
-          <p className="text-center text-lg">
-            Edit your smart contract <code className="italic bg-base-300 text-base font-bold">YourContract.sol</code> in{" "}
-            <code className="italic bg-base-300 text-base font-bold">packages/hardhat/contracts</code>
-          </p>
         </div>
       </div>
     </>
