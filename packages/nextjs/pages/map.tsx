@@ -5,7 +5,7 @@ import * as turf from "@turf/turf";
 import mapboxgl from "mapbox-gl";
 import type { NextPage } from "next";
 
-console.log("turf", turf);
+// console.log("turf", turf);
 
 mapboxgl.accessToken = "pk.eyJ1Ijoic21hcnRodWciLCJhIjoiY2xqeXplMWtmMDg3eDNnbjR6NnpkMWlwaCJ9.O39p6b3rYBnI3D7anrKUSg";
 
@@ -39,9 +39,12 @@ const Sita: NextPage = () => {
 
     function updateArea(e) {
       const data = draw.getAll();
+      console.log(data)
       const answer = document.getElementById("calculated-area");
       if (data.features.length > 0) {
         const area = turf.area(data);
+        const pointGeo = turf.centerOfMass(data);
+        console.log(pointGeo);
         // Restrict the area to 2 decimal points.
         const rounded_area = Math.round(area * 100) / 100;
         console.log(rounded_area);
