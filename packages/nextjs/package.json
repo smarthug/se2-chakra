@@ -23,6 +23,7 @@
     "@rainbow-me/rainbowkit": "^1.0.4",
     "@uniswap/sdk-core": "^4.0.1",
     "@uniswap/v2-sdk": "^3.0.1",
+    "@worldcoin/idkit": "^0.5.1",
     "daisyui": "^2.31.0",
     "framer-motion": "^10.12.18",
     "next": "^13.1.6",
